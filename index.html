@@ -160,17 +160,17 @@
 
   <div class="card">
     <p>
-      AE Coin can be swapped via decentralized exchange using SunSwap V3.
+      AE Coin can be swapped via a decentralized exchange using SunSwap V3.
     </p>
 
-    <a href="https://sun.io/v3/swap" 
-       target="_blank"
-       rel="noopener noreferrer"
-       class="btn btn-primary"
-       style="display:inline-flex;align-items:center;gap:8px;">
+    <!-- TOMBOL AMAN (ANTI BLOK) -->
+    <button
+      class="btn btn-primary"
+      onclick="window.open('https://sun.io/v3/swap', '_blank', 'noopener,noreferrer')"
+      style="display:inline-flex;align-items:center;gap:8px;">
       <img src="assets/sunswap.png" alt="SunSwap" style="width:18px;height:18px;">
       Open SunSwap V3
-    </a>
+    </button>
 
     <p class="note-warning" style="margin-top:14px;">
       <strong>Note:</strong>
@@ -178,12 +178,13 @@
     </p>
 
     <p style="margin-top:12px;font-size:14px;color:var(--muted);display:flex;align-items:center;gap:6px;">
-      Powered by 
-      <a href="https://sun.io/v3/swap" target="_blank" style="color:var(--gold);text-decoration:underline;display:flex;align-items:center;gap:6px;">
-        <img src="assets/sunswap.png" alt="SunSwap" style="width:18px;height:18px;">
-        SunSwap V3
-      </a>
-    </p>
+  Powered by
+  <span style="display:flex;align-items:center;gap:6px;">
+    <img src="assets/sunswap.png" alt="SunSwap" style="width:18px;height:18px;">
+    SunSwap V3
+  </span>
+</p>
+
   </div>
 </section>
 
@@ -282,6 +283,7 @@
 
 </body>
 </html>
+
 
 
 
