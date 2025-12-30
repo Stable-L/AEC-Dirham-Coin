@@ -1,2 +1,3 @@
 # AEC-DirhamStableCoin
-About AE Coin (AEC) is the world's first Dirham stable coin cryptocurrency asset built on the TRON blockchain, inspired by the United Arab Emirates Dirham
+About AEC (AE Coin) is a TRC20 reference token designed to reflect Dirham (AED) value through liquidity-based mechanisms on the TRON blockchain.
+AEC is a community-driven crypto asset and is not affiliated with any government, central bank, or official currency issuer.
